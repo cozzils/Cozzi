@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/NOME-DEL-TUO-REPOSITORY/' // ← Questo deve corrispondere al nome del repo
+  base: '/Cozzi/' // ← Cambia qui! Il tuo repo si chiama "Cozzi"
 })
