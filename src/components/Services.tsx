@@ -122,13 +122,7 @@ const Services = () => {
                   <p className="text-gray-600 text-sm">{service.perfectFor}</p>
                 </div>
 
-                <button
-                  onClick={scrollToContact}
-                  className={`w-full bg-gradient-to-r ${service.gradient} text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center group`}
-                >
-                  Richiedi preventivo
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </button>
+              
               </div>
             </div>
           ))}
